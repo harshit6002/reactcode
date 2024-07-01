@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+// import Tabsdesign from "./Tabsdesign";
+import Tabsshoes from "./Tabsshoes";
+import Softechheadermain from "./Softechheadermain";
+import Softechhome from "./Softechhome";
+import Softechcard from './Softechcard';
+// // import './App.css';
+// import Tabsshoes from './Tabsshoes';
+import Softechaboutus from "./Softechaboutus";
+import Softechsidebar from "./Softechsidebar";
+import Softechcontactus from "./Softechcontactus";
+import MyLoginTable from "./MyLoginTable";
+function App(){
+  return(
+    <div>
+       {/* <Softechhome/> */}
+     <MyLoginTable/>
+     {/* <Tabsshoes/> */}
+      {/* <Softechheadermain/>
+      <Softechcard/> */}
+    {/* <Softechcard/>
+    <hr/>
+    <br/>
+    <Softechsidebar/>  */}
+    {/* <Softechcontactus/> */}
     </div>
-  );
+  )
 }
 
 export default App;

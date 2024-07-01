@@ -1,0 +1,8 @@
+body.backimg{
+    background-image: url(backgroundwebsite.jpg);
+    background-repeat: no-repeat;
+    background-size:  1680px 1500px;
+  }
+  h1{
+    color:darkgrey;
+  }
