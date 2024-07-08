@@ -1,0 +1,24 @@
+useState hook=
+
+use=Declares state variable inside a function
+syntax:
+const [var, setVar] = useState(Val);
+
+useEffect hook=
+
+use=Handle side effect in React
+syntax:
+useEffect(<FUNCTION>, <DEPENDECY>)
+
+useRef hook=
+
+use=Directly creates reference to DOM element
+syntax:
+const refContainer = useRef(initialValue);
+
+useMemo hook=
+
+use=Returns a memoized value
+syntax:
+const memVal = useMemo(function, 
+ arrayDependencies)

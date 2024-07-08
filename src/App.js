@@ -1,27 +1,18 @@
-// import Tabsdesign from "./Tabsdesign";
-import Tabsshoes from "./Tabsshoes";
-import Softechheadermain from "./Softechheadermain";
-import Softechhome from "./Softechhome";
-import Softechcard from './Softechcard';
-// // import './App.css';
-// import Tabsshoes from './Tabsshoes';
-import Softechaboutus from "./Softechaboutus";
-import Softechsidebar from "./Softechsidebar";
-import Softechcontactus from "./Softechcontactus";
-import MyLoginTable from "./MyLoginTable";
+import Sidebartailwind from "./Sidebartailwind";
+import Footertailwind from './Footertailwind.js'; 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 function App(){
   return(
-    <div>
-       {/* <Softechhome/> */}
-     <MyLoginTable/>
-     {/* <Tabsshoes/> */}
-      {/* <Softechheadermain/>
-      <Softechcard/> */}
-    {/* <Softechcard/>
-    <hr/>
-    <br/>
-    <Softechsidebar/>  */}
-    {/* <Softechcontactus/> */}
+    <div  >
+    {/* <Container/>
+    <Row>
+     <Sidebartailwind/>
+     <Footertailwind/>
+     </Row>
+     <Container/> */}
+     
     </div>
   )
 }
